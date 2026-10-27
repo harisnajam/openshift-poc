@@ -9,11 +9,11 @@ def home():
     now = datetime.now()
 
     return f"""
-    <h1>Hello Haris!</h1>
+    <h1>Haris</h1>
 
     <p>Today's date is <b>{now.strftime('%Y-%m-%d')}</b></p>
 
-    <p>The time now is <b>{now.strftime('%H:%M:%S')}</b></p>
+    <p>The time now is <b>{now.strftime('%H:%M:%S')} GMT</b></p>
 
     <hr>
 
